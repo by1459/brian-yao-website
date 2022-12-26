@@ -1,7 +1,13 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 
-const Layout = ({ pageTitle, children }) => {
+interface customProps {
+    pageTitle: string;
+    children: JSX.Element|JSX.Element[];
+}
+
+const Layout = (props: customProps) => {
+    const { pageTitle, children } = props;
     return (
         <div>
             <nav>
