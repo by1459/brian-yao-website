@@ -1,7 +1,21 @@
+* {
+    margin: 0;
+}
+@font-face {
+    font-family: Nexa-Heavy;
+    src: url("../fonts/Nexa-Trial-Heavy.ttf");
+}
+@font-face {
+    font-family: Nexa-Regular;
+    src: url("../fonts/Nexa-Trial-Regular.ttf");
+}
+
 .container {
     margin: auto;
-    max-width: 1000px;
-    font-family: "Comic Sans MS", serif;
+    font-family: Nexa-Regular;
+    z-index: 100;
+    position: absolute;
+    width: 100vw;
 }
 .heading {
     color: rebeccapurple;
@@ -9,11 +23,46 @@
 .nav-links {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
 }
 .nav-link-item {
-    padding-right: 2rem;
+    padding-left: 3vw;
+}
+.nav-link-item-special {
+    padding-right: 68vw;
 }
 .nav-link-text {
-    color: black;
+    color: #231651;
+    font-family: Nexa-Heavy;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.nav-link-text-special {
+    color: #2374AB;
+    font-family: Nexa-Heavy;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.background {
+    background-color: #231651;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+    position: fixed;
+}
+
+.sidebar {
+    background: #D6FFF6;
+    height: 100vh;
+    width: 27vw;
+    position: fixed;
+    z-index: -90;
+    right: 0;
+}
+.head-shot {
+    height: 50vh;
+    width: 40vw;
 }
