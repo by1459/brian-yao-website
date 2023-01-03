@@ -1,8 +1,9 @@
 import * as React from 'react'
+import SingleProject from './single-project'
 
 const Project = () => {
     return (
-        <div></div>
+        <SingleProject image={} description={} link={}></SingleProject>
     )
 }
 

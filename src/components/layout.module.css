@@ -31,6 +31,7 @@
     position: fixed;
     top: 2vh;
     right: 2vw;
+    z-index: 1000;
 }
 .nav-link-item {
     padding-left: 3vw;
