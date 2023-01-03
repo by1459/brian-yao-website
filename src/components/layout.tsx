@@ -10,6 +10,7 @@ import {
     navLinkItemSpecial,
     navLinkTextSpecial
 } from './layout.module.css'
+import SingleProject from "./single-project";
 
 interface customProps {
     children: JSX.Element|JSX.Element[];
@@ -39,7 +40,6 @@ const Layout = (props: customProps) => {
                 <main>
                     {children}
                 </main>
-
             </div>
             <div className={ background }></div>
             <div className={ sidebar }></div>

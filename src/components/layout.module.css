@@ -9,13 +9,17 @@
     font-family: Nexa-Regular;
     src: url("../fonts/Nexa-Trial-Regular.ttf");
 }
+@font-face {
+    font-family: Nexa-Thin;
+    src: url("../fonts/Nexa-Trial-Thin.ttf");
+}
 
 .container {
     margin: auto;
-    font-family: Nexa-Regular;
     z-index: 100;
     position: absolute;
     width: 100vw;
+    height: auto;
 }
 .heading {
     color: rebeccapurple;
@@ -24,7 +28,7 @@
     display: flex;
     list-style: none;
     flex-direction: row-reverse;
-    position: absolute;
+    position: fixed;
     top: 2vh;
     right: 2vw;
 }
