@@ -3,7 +3,7 @@ import SingleProject from './single-project'
 
 const Project = () => {
     return (
-        <SingleProject image={} description={} link={}></SingleProject>
+        <SingleProject description={"hello"} link={"hello"}></SingleProject>
     )
 }
 

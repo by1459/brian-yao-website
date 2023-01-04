@@ -8,7 +8,7 @@ import {
     background,
     sidebar,
     navLinkItemSpecial,
-    navLinkTextSpecial
+    navLinkTextSpecial,
 } from './layout.module.css'
 import SingleProject from "./single-project";
 
